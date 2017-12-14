@@ -9,7 +9,7 @@ body {
 
 #cube_container {
     height: 80px;
-    width: 270px;
+    width: 360px;
     position: absolute;
     margin: auto;
     top: 0;
@@ -42,6 +42,15 @@ body {
 #email:hover {
     color: #FFF;
     background-color: #FF9800;
+}
+
+#blog {
+    color: #FFF;
+    background-color: #BDBDBD;
+}
+#blog:hover {
+    color: #FFF;
+    background-color: #EF5350;
 }
 
 .cube {
