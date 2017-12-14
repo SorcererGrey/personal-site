@@ -1,0 +1,70 @@
+body, ol, ul, li, span, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    transition: 0.5s ease-in-out;
+}
+
+#cube_container {
+    height: 80px;
+    width: 270px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#twitter {
+    color: #FFF;
+    background-color: #BDBDBD;
+}
+#twitter:hover {
+    color: #FFF;
+    background-color: #81D4FA;
+}
+
+#github {
+    color: #FFF;
+    background-color: #BDBDBD;
+}
+#github:hover {
+    background-color: #757575;
+}
+
+#email {
+    color: #FFF;
+    background-color: #BDBDBD;
+}
+#email:hover {
+    color: #FFF;
+    background-color: #FF9800;
+}
+
+.cube {
+    height: 80px;
+    width: 80px;
+    transition: 0.4s ease-in-out;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-shadow: 0 0 2px 3px #b9b9b9;
+}
+.cube:hover {
+    box-shadow: 0 0 0 0;
+}
+.cube_icon {
+    padding-top: 28px;
+    padding-left: 28px;
+    font-size: 25px;
+    /*transition: 0.4s ease-in-out;*/
+}
+
+a:link,
+a:active,
+a:visited {
+    color: #FFF;
+};
